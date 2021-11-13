@@ -43,7 +43,7 @@ class WkHtmlToPdfLoader {
     }
 
     private static String getLibraryResource() {
-        return "/wkhtmltox/0.12.5/"
+        return "/wkhtmltox/0.12.6/"
                 + (Platform.isWindows() ? "" : "lib")
                 + "wkhtmltox"
                 + (Platform.is64Bit() ? "" : ".32")
